@@ -50,7 +50,7 @@ def remove_task():
         save_tasks()
         update_list()
     except IndexError:
-        messagebox.showwarning("Warning", "Please select a task to remove.")
+        messagebox.showwarning("Warning", "Please select a task to remove that is running.")
 
 # GUI Setup
 root = tk.Tk()
